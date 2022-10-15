@@ -1,0 +1,38 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 98.9vw;
+    height: 100vh;
+}
+.header-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar.active{
+    background-color: #A7FFE4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.swiper::-webkit-scrollbar-track
+{
+    height: 8px;
+    background-color: #fff;
+}
+
+.swiper::-webkit-scrollbar
+{
+	height: 6px;
+	background-color: #F5F5F5;
+}
+
+.swiper::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
